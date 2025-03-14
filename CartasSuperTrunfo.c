@@ -124,13 +124,26 @@ int main() {
 
     //Comparação das Cartas.
 
-    printf("População: %d\n", populacao > populacao2);
-    printf("Área: %d\n", area > area2);
-    printf("PIB: %d\n", pib > pib2);
+    /*printf("População: %lu\n", populacao > populacao2);
+    printf("Área: %.2f\n", area > area2);
+    printf("PIB: %.2f\n", pib > pib2);
     printf("Número de Pontos Turísticos: %d\n", pontoTuristico > pontoTuristico2);
-    printf("Densidade Populacional: %d\n", densPopulacao < densPopulacao2);
-    printf("PIB per Capita: %d\n", pibPerCap > pibPerCap2);
-    printf("Super Poder: %d\n", superPoder > superPoder2);
+    printf("Densidade Populacional: %.2f\n", densPopulacao < densPopulacao2);
+    printf("PIB per Capita: %.2f\n", pibPerCap > pibPerCap2);
+    printf("Super Poder: %.2f\n", superPoder > superPoder2);*/
+
+    //Comparação com IF - IF ELSE
+
+    printf("Quem tem a maior população?\n");
+    
+    printf("\n");
+
+    if (populacao > populacao2){
+        printf("Carta 1 tem a maior população!\n");
+    } 
+    else {
+        printf("Carta 2 tem a maior população!\n");
+    }
 
     return 0;
 }
