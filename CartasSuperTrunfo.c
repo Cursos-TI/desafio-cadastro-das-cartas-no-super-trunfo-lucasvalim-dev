@@ -762,7 +762,7 @@ int main() {
                 printf("Pontos Turísticos Carta 2: %d\n", pontoTuristico2);
                 printf("Carta 1 Venceu!\n");
             }
-            else if(densPopulacao == pontoTuristico2) {
+            else {
                 printf("%c", estado + " - " + estado2);
                 printf("\n");
                 printf("Densidade Populaciona Carta 1: %.2f\n", densPopulacao);
